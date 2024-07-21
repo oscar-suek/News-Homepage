@@ -1,0 +1,254 @@
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/fonts/static/Inter-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Inter-extrabold";
+    src: url("./assets/fonts/static/Inter-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "Inter-bold";
+    src: url("./assets/fonts/static/Inter-Bold.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+#main{
+    width: 1100px;
+    font-family: "Inter";
+    margin: auto;
+    margin-top: 50px;
+}
+
+#first-div{
+    display: flex;
+    width: 1100px;
+}
+
+#fd1{
+    /* font-family: "Inter-extrabold"; */
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 800;
+    color:hsl(240, 100%, 5%);
+}
+
+#fd2{
+    display: flex;
+    margin-left: 680px;
+    width: 400px;
+    justify-content: space-between;
+    font-size: 15px;
+    padding-top: 10px;
+    color: hsl(236, 13%, 42%);
+}
+
+#second-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#sd1{
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#sdi{
+    /* width: 400px; */
+    width: 240px;
+    font-size: 38px;
+    font-weight: 800;
+    font-family: "Inter-extrabold";
+    color:hsl(240, 100%, 5%);
+}
+
+
+#sdii{
+    /* margin-left: 270px; */
+    width: 370px;
+    color: hsl(236, 13%, 42%);
+}
+
+#b1{
+    text-transform: uppercase;
+    margin-top: 16px;
+    background-color:hsl(240, 100%, 5%);
+    color:hsl(36, 100%, 99%);
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    border: 0;
+}
+
+#sd2{
+    /* background-color:hsl(240, 100%, 5%); */
+    background-color:hsl(240, 100%, 5%);
+    width: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+#a3{
+    font-size: 28px;
+    color: hsl(35, 77%, 62%);
+    font-family: "Inter-bold";
+    padding-bottom: 5px;
+}
+
+.a1{
+    font-size: 15px;
+    font-family: "Inter-bold";
+    color:hsl(36, 100%, 99%);
+    padding-bottom: 10px;
+}
+
+.a2{
+    color:hsl(36, 100%, 99%);
+    font-size: 14px;
+}
+
+hr{
+    color:hsl(36, 100%, 99%);
+    border-width: 0.2px;
+}
+
+#third-div{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+#td1{
+    display: flex;
+    width: 300px;;
+    justify-content: space-between;
+}
+
+#tdi{
+    padding-left: 10px;
+}
+
+#tdi1{
+    font-family: "Inter-bold";
+    font-size: 29px;
+    color: hsl(5, 85%, 63%);
+    padding-bottom: 7px;
+}
+
+#tdi2{
+    color: hsl(240, 100%, 5%);
+    font-size: 16px;
+    font-family: "Inter-bold";
+    padding-bottom: 10px;
+}
+
+#tdi3{
+    font-size: 15px;
+    color: hsl(236, 13%, 42%);
+}
+
+#td2{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+#tdj{
+    padding-left: 10px;
+}
+
+#tdj1{
+    font-family: "Inter-bold";
+    font-size: 29px;
+    color: hsl(5, 85%, 63%);
+    padding-bottom: 7px;
+}
+
+#tdj2{
+    color: hsl(240, 100%, 5%);
+    font-size: 16px;
+    font-family: "Inter-bold";
+    padding-bottom: 10px;
+}
+
+#tdj3{
+    font-size: 15px;
+    color: hsl(236, 13%, 42%);
+}
+
+#td3{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+#tdk{
+    padding-left: 10px;
+}
+
+#tdk1{
+    font-family: "Inter-bold";
+    font-size: 29px;
+    color: hsl(5, 85%, 63%);
+    padding-bottom: 7px;
+}
+
+#tdk2{
+    color: hsl(240, 100%, 5%);
+    font-size: 16px;
+    font-family: "Inter-bold";
+    padding-bottom: 10px;
+}
+
+#tdk3{
+    font-size: 15px;
+    color: hsl(236, 13%, 42%);
+}
+
+.fd2i:hover{
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
+}
+
+.a1:hover{
+    cursor: pointer;
+    color: hsl(35, 77%, 62%);
+}
+
+#b1:hover{
+    cursor: pointer;
+}
+
+#tdi2:hover{
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
+}
+
+#tdj2:hover{
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
+}
+
+#tdk2:hover{
+    cursor: pointer;
+    color: hsl(5, 85%, 63%);
+}
